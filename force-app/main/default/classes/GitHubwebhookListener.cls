@@ -14,6 +14,8 @@ res.addHeader('Content-type','application/json');
 system.debug('request body:'+ req.requestbody.tostring());
 res.responseBody=blob.valueOf('{"Success":true,"event":"unknown"}');
 res.statusCode=200;
+system.debug('Deployed to target org from VS code');
+system.debug('will be deployed from git');
 }
 
 @HttpGet
